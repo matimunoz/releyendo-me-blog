@@ -1,0 +1,21 @@
+baseURL: ''
+languageCode: 'es'
+title: 'Releyendo'
+theme: 'PaperMod'
+
+params:
+  homeInfoParams:
+    Title: "Hola terrícola"
+    Content: Bienvenido al blog de Matías Muñoz
+
+
+menu:
+  main:
+  - identifier: about
+    name: sobre mí
+    url: /aboutme/
+    weight: 30
+  - identifier: todos los posteos
+    name: todos los posteos
+    url: /archives/
+    weight: 20
